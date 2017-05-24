@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css"  media="screen" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"> </script>
+		<script src="jqscript.js"></script>
+	</head>
+	<body>
+		<div class="cabecera"> 
+			<div class="menu">
+				<div class="barra"></div>
+				<div class="barra"></div>
+				<div class="barra"></div>
+			</div>
+			Encuentra tu libro: 
+			<br>
+			<input class="buscador" type="text"> 
+			<input class="btn-buscar" type="button" value="Buscar">
+		</div>
+		<div class="items">
+			<ul>
+				<li>Programaci&oacute;n</li>
+				<li>Matem&aacute;tica</li>
+				<li>Linux</li>
+				<li>JavaScript</li>
+				<li><a href="contacto.html" target="_blank">Contacto</a></li>
+			</ul>	
+		</div>
+		<div class="contenido"></div>
+		<div><input class="btn-mas"type="button" value="M&aacute;s"</div> 
+		<div id="myModal" class="modal">
+			<div class="modal-content">
+				<div class="close">X</div>				
+					<form>
+					<div>Enviar: </div>
+					<div class="cont-comp"></div>
+					<div class="contenido2"></div>
+					<div class="txts">Nombre:</div>
+					<input type="text" name="nombre" ><br>
+					<div class="txts">Apellido:</div>
+					<input type="text" name="apellido" ><br>
+					<div class="txts">Mail de tu amigo:</div>
+					<input class="amail" type="text" name="mail" ><br><br>
+					<div class="botones" id="btn-enviar"><input class="enviar" type="button" value="Enviar"></div>
+					<div class="botones"><input class="limpiar" type="reset" value="Limpiar"></div>
+					</div>
+				</form>		
+		    </div>
+		</div>
+		<div class="footer">Copyright 2016 -- Rom&aacute;n Bond</div>
+	</body>
+</html>
+
